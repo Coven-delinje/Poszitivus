@@ -169,3 +169,90 @@
 .white {
   color: #fff;
 }
+
+.invite {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #F3F3F3;
+  border-radius: 45px;
+  padding: 60px;
+  position: relative;
+  margin: 23px 100px;
+}
+
+.invite__heading {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+  align-items: flex-start;
+  padding-right: 170px;
+}
+
+.invite__img {
+  position: absolute;
+  right: 135px;
+}
+
+.case__heading {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 140px 0px 80px 100px;
+}
+
+.case__heading h2 {
+  font-size: 40px;
+  padding: 0 7px;
+  background-color: #B9FF66;
+  border-radius: 8px;
+}
+
+.case__heading p {
+  font-size: 18px;
+}
+
+.case__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #191A23;
+  color: #fff;
+  border-radius: 45px;
+  padding: 70px 0;
+}
+
+.case__arrow {
+  width: 17px;
+}
+
+.line {
+  width: 3px;
+  height: 168px;
+  margin-right: 64px;
+}
+
+.case__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+  padding:0 64px;
+  border-right: 1px solid #F3F3F3;
+}
+
+.case__list-item p {
+  font-size: 18px;
+}
+
+.case__button {
+  display: flex;
+  gap: 15px;
+  color: #B9FF66;
+  font-size: 20px;
+}
+
+.item-last {
+  border: none;
+}
